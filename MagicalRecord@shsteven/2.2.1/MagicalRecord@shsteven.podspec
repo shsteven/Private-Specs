@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'http://github.com/magicalpanda/MagicalRecord'
   s.author   = { 'Saul Mora' => 'saul@magicalpanda.com' , 'Steven Zhang' => 'shsteven1000@gmail.com'}
   s.source   = { :git => 'https://github.com/shsteven/MagicalRecord.git',:branch=>'release/2.2.1', :tag => '2.2.1' }
-  s.description  = 'Handy fetching, threading and data import helpers to make Core Data a little easier to use.'
+  s.description  = 'Handy fetching, threading and data import helpers to make Core Data a little easier to use. Fixed MR_importFromArray: method'
   s.source_files = 'MagicalRecord/**/*.{h,m}'
   s.framework    = 'CoreData'
   s.requires_arc = true
